@@ -434,7 +434,7 @@
 									</div>
 									<div class='sc-margintop-medium'>
 										<input type='submit' value='Continue to Checkout' 
-											class='sc-button-pricing-checkout sc-whiter-background sc-lightblue sc-lightbold sc-retina sc-clickable2 sc-xxxmedium'>
+											class='sc-button-pricing-checkout sc-whiter-background sc-lightblue sc-lightbold sc-clickable2 sc-xxxmedium'>
 									</div>
 									<br>
 								</div>

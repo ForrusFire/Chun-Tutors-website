@@ -14,7 +14,7 @@
 		<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 		<link rel="canonical" href="https://chuntutors.com">
 		<link rel="icon" href="images/Logo Icon.png">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=futura">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:light|Inter">
 
 		<meta property="og:site_name" content="Chun Tutors">
 		<meta property="og:title" content="Chun Tutors">
@@ -35,10 +35,10 @@
 				<div class="sc-Navbar sc-shadow sc-white-background">
 					<div class="sc-Navbar-left">
 						<div class="sc-Navbar-elem">
-							<a href="sms:+18586499184" class="sc-clickable sc-verdana sc-xmedium"><span>💬 TEXT</span></a>
+							<a href="sms:+18586499184" class="sc-clickable sc-verdana sc-xmedium sc-gray"><span>💬 TEXT</span></a>
 						</div>
 						<div class="sc-Navbar-elem">
-							<a href="mailto:sam@chuntutors.com" class="sc-clickable sc-verdana sc-xmedium"><span>✉️ EMAIL</span></a>
+							<a href="mailto:sam@chuntutors.com" class="sc-clickable sc-verdana sc-xmedium sc-gray"><span>✉️ EMAIL</span></a>
 						</div>
 					</div>
 					<div class='sc-Navbar-left-mobile'>
@@ -67,7 +67,7 @@
 				<!--Content-->
 				<div class='sc-content'>
 					<!--Banner-->
-					<div class='sc-banner sc-center sc-white sc-green-background sc-trebuchet'>
+					<div class='sc-banner sc-center sc-white sc-green-background sc-trebuchet sc-shadow-4'>
 						<h1 class='sc-xxxlarge'>Chun Tutors</h1>
 						<p>Experienced tutor specialists with affordable rates.</p>
 					</div>
@@ -134,7 +134,7 @@
 					<div class='sc-notsphone-smallpadding'></div>
 
 					<!--Pricing and Availability-->
-					<div class='sc-green-background'>
+					<div class='sc-green-background sc-shadow-4'>
 						<div class='sc-pricing-and-avail sc-center'>
 							<div class='sc-white'>
 								<h2 class='sc-marginbottom'>Pricing and Availability</h2>
@@ -148,16 +148,16 @@
 								<div class='sc-white-background sc-row'>
 									<div class='sc-split-top-tablet'>
 										<div class='sc-escrow sc-xxlarge sc-marginbottom'><b>Learning Programs</b></div>
-										<div class='sc-retina sc-xmedium sc-marginbottom sc-margintop sc-gray'>
+										<div class='sc-xmedium sc-marginbottom sc-margintop sc-gray sc-Noto-Sans-KR'>
 											Access to a network of tutor specialists with distinguished skills and expertise.
 										</div>
 									</div>
 									<div class='sc-split-one-third sc-left'>
 										<div class='sc-escrow sc-xxlarge sc-marginbottom'><b>Learning Programs</b></div>
-										<div class='sc-retina sc-xmedium sc-marginbottom sc-margintop-large'>
+										<div class='sc-xmedium sc-marginbottom sc-margintop-large sc-Noto-Sans-KR'>
 											Access to a network of tutor specialists with distinguished skills and expertise:
 										</div>
-										<ul class='sc-ul2 sc-retina sc-gray sc-xxmedium'>
+										<ul class='sc-ul2 sc-gray sc-xxmedium sc-Noto-Sans-KR'>
 											<li>Personalised lesson plans</li>
 											<li>Homework help and exam preparation</li>
 											<li>Rescheduling flexibility</li>
@@ -173,7 +173,7 @@
 									</div>
 									<div class='sc-split-two-third-lphone'>
 										<div class='sc-escrow sc-xxlarge sc-marginbottom'><b>Learning Programs</b></div>
-										<div class='sc-retina sc-xmedium sc-marginbottom sc-margintop sc-gray'>
+										<div class='sc-xmedium sc-marginbottom sc-margintop sc-gray sc-Noto-Sans-KR'>
 											Access to a network of tutor specialists with distinguished skills and expertise.
 										</div>
 										<img src='images/Vector.jpg' class='sc-pic-vector'>
@@ -182,7 +182,7 @@
 										</div>
 									</div>
 									<div class='sc-split-one-third-tablet sc-left'>
-										<ul class='sc-ul2 sc-retina sc-gray sc-xxmedium'>
+										<ul class='sc-ul2 sc-gray sc-xxmedium sc-Noto-Sans-KR'>
 											<li>Personalised lesson plans</li>
 											<li>Homework help and exam preparation</li>
 											<li>Rescheduling flexibility</li>
@@ -198,7 +198,7 @@
 									<div class='sc-three-pictures sc-three-pictures-space sc-marginbottom'>
 										<div class='sc-three-pictures-text-container sc-white-background sc-column sc-center'>
 											<div class='sc-italics sc-letterspacing-small'><b>Standard Rate</b></div>
-											<div class='sc-retinamed sc-letterspacing sc-xxxmedium sc-marginbottom-small'><b>Individual Session</b></div>
+											<div class='sc-letterspacing sc-xxxmedium sc-marginbottom-small'><b>Individual Session</b></div>
 											<div class="sc-escrow sc-halfxlarge sc-opacity sc-margintop-medium sc-gray sc-letterspacing-xsmall">$65/hour</div>
 											<button class="sc-button-act sc-margintop-large sc-marginbottom" onclick="document.getElementsByClassName('sc-modal')[0].style.display='block'">
 												ACT NOW
@@ -208,7 +208,7 @@
 									<div class='sc-three-pictures sc-three-pictures-space sc-marginbottom sc-marginleft-3p'>
 										<div class='sc-three-pictures-text-container sc-white-background sc-column sc-center'>
 											<div class='sc-italics sc-letterspacing-small'><b>15% Off 4 Weeks</b></div>
-											<div class='sc-retinamed sc-letterspacing sc-xxxmedium sc-marginbottom-small'><b>Package</b></div>
+											<div class='sc-letterspacing sc-xxxmedium sc-marginbottom-small'><b>Package</b></div>
 											<div class="sc-escrow sc-halfxlarge sc-opacity sc-margintop-medium sc-gray sc-letterspacing-xsmall">$55/hour</div>
 											<div class="sc-margintop-large sc-marginbottom">
 												<a href='package-s/index.php' class='sc-button-act sc-href-no-underline'>ACT NOW</a>
@@ -217,9 +217,9 @@
 									</div>
 									<div class='sc-three-pictures sc-three-pictures-space sc-marginbottom sc-marginleft-3p'>
 										<div class='sc-three-pictures-text-container sc-white-background sc-column sc-center'>
-											<div class='sc-best-value sc-white sc-retinabook'>Best Value</div>
+											<div class='sc-best-value sc-white'>Best Value</div>
 											<div class='sc-italics sc-letterspacing-small sc-margintop-medium'><b>15% Off 8 Weeks</b></div>
-											<div class='sc-retinamed sc-letterspacing sc-xxxmedium sc-marginbottom-small'><b>Package</b></div>
+											<div class='sc-letterspacing sc-xxxmedium sc-marginbottom-small'><b>Package</b></div>
 											<div class="sc-escrow sc-halfxlarge sc-opacity sc-margintop-medium sc-gray sc-letterspacing-xsmall">$55/hour</div>
 											<div class="sc-margintop-large sc-marginbottom">
 												<a href='package/index.php' class='sc-button-act sc-href-no-underline'>ACT NOW</a>
@@ -233,7 +233,7 @@
 									<div class='sc-split-sections-sphone sc-left'>
 										<div class='sc-escrow sc-xxlarge'><b>Learning Programs</b></div>
 										<div id='sphone-droplist' style='overflow:hidden; max-height: 0; opacity: 0; transition: max-height 400ms 0ms, opacity 500ms 0ms;'>
-											<ul class='sc-ul2 sc-retina sc-gray'>
+											<ul class='sc-ul2 sc-gray sc-Noto-Sans-KR'>
 												<li>Personalised lesson plans</li>
 												<li>Homework help and exam preparation</li>
 												<li>Rescheduling flexibility</li>
@@ -241,7 +241,7 @@
 												<li>First individual session secured by a no questions asked money back guarantee</li>
 											</ul>
 										</div>
-										<button class='sc-sphone-program-features-button sc-lightblue sc-lightbold sc-xmedium sc-retina sc-white-background' onclick='sphoneProgramFeatures()'>
+										<button class='sc-sphone-program-features-button sc-lightblue sc-lightbold sc-xmedium sc-white-background' onclick='sphoneProgramFeatures()'>
 											View Program Features
 										</button>
 										<img src='images/Vector.jpg' class='sc-pic-vector sc-center' onclick='sphoneProgramFeatures()'>
@@ -300,7 +300,7 @@
 								<div class='sc-smallpadding'></div>
 								<div class='sc-smallpadding sc-center sc-marginleft-medium sc-marginright-medium' style='line-height:1.5;'>
 									<span class='sc-xx5medium sc-italics sc-gray'>
-										Thank you for booking an Individual Session. One of our tutor specialists will contact you for scheduling details shortly.
+										Thank you! One of our tutor specialists will contact you for scheduling details shortly.
 									</span>
 									<div onclick="document.getElementsByClassName('sc-modal')[0].style.display='none'" class='sc-button-individual-modal sc-xmedium'>
 										ALL DONE
@@ -313,7 +313,7 @@
 							<div id="uncompleted-modal">
 								<header class='sc-smallpadding sc-green-background sc-white'>
 									<span onclick="document.getElementsByClassName('sc-modal')[0].style.display='none'" class="sc-x-button sc-xmedium">&#10006;</span>
-									<h2 class='sc-sphone-margins sc-center sc-marginleft-medium sc-marginright-medium'>Individual Pricing and Availability</h2>
+									<h2 class='sc-sphone-margins sc-center sc-marginleft-medium sc-marginright-medium'>Individual Session Booking</h2>
 								</header>
 
 								<!--PHP Script Preform-->
