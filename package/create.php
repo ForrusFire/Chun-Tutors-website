@@ -18,6 +18,7 @@
         $paymentIntent = \Stripe\PaymentIntent::create([
             'amount' => calculateOrderAmount(),
             'currency' => 'usd',
+            'receipt_email' => $_SESSION["eaddress"],
         ]);
 
         $output = [

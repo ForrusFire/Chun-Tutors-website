@@ -1,6 +1,6 @@
 /* SC 1.4 Feb 2021 by Sam Chun */
 
-/* normalize CSS (TODO)*/
+/* normalize CSS*/
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
 audio,canvas,progress,video{display:inline-block}progress{vertical-align:baseline}

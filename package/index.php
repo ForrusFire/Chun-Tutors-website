@@ -8,19 +8,25 @@
 <html lang="en-US">
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 
 		<title>Chun Tutors</title>
 		<meta name="author" content="Sam Chun">
-		<meta name="keywords" content="TODO">
-		<meta name="description" content="TODO">
+		<meta name="keywords" content="Chun Tutors, tutor, tutors, lesson, lessons, online, learning, exercises, affordable,
+			math, calculus, statistics, physics, economics, microeconomics, macroeconomics, art, anatomy">
+		<meta name="description" content="Hello, we are Chun Tutors! We are the #1 rated online tutoring network in the San Diego area, 
+			with 100% 5-star reviews and over 1,000 combined hours of private tutoring experience. Monthly payments available!">
 		<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-		<link rel="canonical" href="TODO">
+		<link rel="canonical" href="https://chuntutors.com">
 		<link rel="icon" href="../images/Logo Icon.png">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:light|Inter">
 
-		<!--Add other meta properties-->
-
-		
+		<meta property="og:site_name" content="Chun Tutors">
+		<meta property="og:title" content="Chun Tutors">
+		<meta property="og:url" content="https://chuntutors.com">
+		<meta property="og:type" content="website">
+		<meta property="og:description" content="Hello, we are Chun Tutors! We are the #1 rated online tutoring network in the San Diego area, 
+			with 100% 5-star reviews and over 1,000 combined hours of private tutoring experience. Monthly payments available!">
 
 		<!--CSS Stylesheets-->
 		<link rel="stylesheet" href="../stylesheets/styles_1.4.css">
@@ -476,7 +482,6 @@
 						?>
 						<div id='checkout_gateway' style='display:none;'>
 							<div class='sc-margintop-xlarge sc-notsphone-marginleft sc-notsphone-marginright sc-marginbottom sc-whiter-background sc-rounded-corners sc-shadow-3'>
-								<script src="https://js.stripe.com/v3/"></script>
 								<script src="client.js" defer></script>
 								<form id="payment-form" class='sc-payment-form'>
 									<div class='sc-pricing-split-checkout-display'>
@@ -559,6 +564,8 @@
 									$_SESSION["num_sessions"] = $num_sessions;
 									$_SESSION["num_weeks"] = $num_weeks;
 									$_SESSION["time_pref"] = implode(", ", $time_pref);
+									
+									echo '<script src="https://js.stripe.com/v3/"></script>';
 								}
 							}
 						?>
