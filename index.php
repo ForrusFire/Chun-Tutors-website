@@ -14,7 +14,6 @@
 		<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 		<link rel="canonical" href="https://chuntutors.com">
 		<link rel="icon" href="images/Logo Icon.png">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:light|Inter">
 
 		<meta property="og:site_name" content="Chun Tutors">
 		<meta property="og:title" content="Chun Tutors">
@@ -25,6 +24,7 @@
 
 		<!--CSS Stylesheets-->
 		<link rel="stylesheet" href="stylesheets/styles_1.4.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:light|Inter">
 	</head>
 
 	
@@ -42,13 +42,13 @@
 						</div>
 					</div>
 					<div class='sc-Navbar-left-mobile'>
-						<button class='sc-Navbar-mobile-stack-button sc-white-background' onclick="mobileStackButton()">
-							<img src='images/stack icon.png' class='sc-pic-stack-button'>
+						<button class='sc-Navbar-mobile-stack-button sc-white-background' id='mobileStackButton'>
+							<img src='images/stack icon.png' class='sc-pic-stack-button' alt='Mobile Stack Button'>
 						</button>
 					</div>
 					<div class="sc-Navbar-center sc-center">
 						<div class="sc-Navbar-logo">
-							<a href="" onclick='mobileStackButtonClose()'>
+							<a href="" id="mainLogo">
 								<img src="images/Logo.png" class='sc-pic-logo' alt='Chun Tutors Logo'>
 							</a>
 						</div>
@@ -86,7 +86,7 @@
 							</div>
 						</span>
 						<div class='sc-center sc-smallpadding'>
-							<img src="images/Ratings.png" class='sc-pic-ratings'>
+							<img src="images/Ratings.png" class='sc-pic-ratings' alt='Chun Tutors Ratings'>
 						</div>
 						<span class='sc-smallpadding'>
 							<div class='sc-marginbottom-large'>
@@ -103,13 +103,13 @@
 						
 						<div class='sc-center sc-row sc-notsphone-smallpadding sc-marginleft-xlarge-neg sc-marginright-xlarge-neg'>
 							<div class="sc-three-pictures">
-								<img src="images/Columbia Logo.jpg" class='sc-pic-uni-logo sc-pic-columbia-uni-logo'>
+								<img src="images/Columbia Logo.jpg" class='sc-pic-uni-logo sc-pic-columbia-uni-logo' alt='Columbia University Logo'>
 							</div>
 							<div class="sc-three-pictures">
-							  	<img src="images/Harvard Logo.jpg" class='sc-pic-uni-logo sc-pic-harvard-uni-logo'>
+							  	<img src="images/Harvard Logo.jpg" class='sc-pic-uni-logo sc-pic-harvard-uni-logo' alt='Harvard University Logo'>
 							</div>
 							<div class="sc-three-pictures">
-							  	<img src="images/ArtCenter Logo.jpg" class='sc-pic-uni-logo sc-pic-artcenter-uni-logo'>
+							  	<img src="images/ArtCenter Logo.jpg" class='sc-pic-uni-logo sc-pic-artcenter-uni-logo' alt='Art Center Logo'>
 							</div>
 						</div>
 
@@ -119,16 +119,16 @@
 					<!--Scrolling Reviews-->
 					<div class='sc-notsphone-smallpadding sc-marginright-xlarge-neg sc-marginleft-xlarge-neg'>
 						<div class='sc-scroller sc-center' style='display:block;'>
-							<img src="images/Review1.png" class='sc-pic-review'>
+							<img src="images/Review1.png" class='sc-pic-review' alt='Chun Tutors Reviews'>
 						</div>
 						<div class='sc-scroller sc-center' style='display:none;'>
-							<img src="images/Review2.png" class='sc-pic-review'>
+							<img src="images/Review2.png" class='sc-pic-review' alt='Chun Tutors Reviews'>
 						</div>
 						<div class='sc-scroller sc-center' style='display:none;'>
-							<img src="images/Review3.png" class='sc-pic-review'>
+							<img src="images/Review3.png" class='sc-pic-review' alt='Chun Tutors Reviews'>
 						</div>
 						<div class='sc-scroller sc-center' style='display:none;'>
-							<img src="images/Review4.png" class='sc-pic-review'>
+							<img src="images/Review4.png" class='sc-pic-review' alt='Chun Tutors Reviews'>
 						</div>
 					</div>
 					<div class='sc-notsphone-smallpadding'></div>
@@ -147,13 +147,13 @@
 							<div class='sc-split-sections'>
 								<div class='sc-white-background sc-row'>
 									<div class='sc-split-top-tablet'>
-										<div class='sc-escrow sc-xxlarge sc-marginbottom'><b>Learning Programs</b></div>
+										<div class='sc-escrow sc-xxlarge sc-marginbottom'><strong>Learning Programs</strong></div>
 										<div class='sc-xmedium sc-marginbottom sc-margintop sc-gray sc-Noto-Sans-KR'>
 											Access to a network of tutor specialists with distinguished skills and expertise.
 										</div>
 									</div>
 									<div class='sc-split-one-third sc-left'>
-										<div class='sc-escrow sc-xxlarge sc-marginbottom'><b>Learning Programs</b></div>
+										<div class='sc-escrow sc-xxlarge sc-marginbottom'><strong>Learning Programs</strong></div>
 										<div class='sc-xmedium sc-marginbottom sc-margintop-large sc-Noto-Sans-KR'>
 											Access to a network of tutor specialists with distinguished skills and expertise:
 										</div>
@@ -166,17 +166,17 @@
 										</ul>
 									</div>
 									<div class='sc-split-two-third'>
-										<img src='images/Vector.jpg' class='sc-pic-vector'>
+										<img src='images/Vector.jpg' class='sc-pic-vector' alt='Vector'>
 										<div class='sc-margintop-medium sc-gray sc-italics sc-xxmedium sc-lightgray'>
 											Note: Scheduling priority is given to students who select the package option
 										</div>
 									</div>
 									<div class='sc-split-two-third-lphone'>
-										<div class='sc-escrow sc-xxlarge sc-marginbottom'><b>Learning Programs</b></div>
+										<div class='sc-escrow sc-xxlarge sc-marginbottom'><strong>Learning Programs</strong></div>
 										<div class='sc-xmedium sc-marginbottom sc-margintop sc-gray sc-Noto-Sans-KR'>
 											Access to a network of tutor specialists with distinguished skills and expertise.
 										</div>
-										<img src='images/Vector.jpg' class='sc-pic-vector'>
+										<img src='images/Vector.jpg' class='sc-pic-vector' alt='Vector'>
 										<div class='sc-margintop-medium sc-gray sc-italics sc-xxmedium sc-lightgray'>
 											Note: Scheduling priority is given to students who select the package option
 										</div>
@@ -197,8 +197,8 @@
 								<div class='sc-row sc-margintop-3p sc-marginbottom-large'>
 									<div class='sc-three-pictures sc-three-pictures-space sc-marginbottom'>
 										<div class='sc-three-pictures-text-container sc-white-background sc-column sc-center'>
-											<div class='sc-italics sc-letterspacing-small'><b>Standard Rate</b></div>
-											<div class='sc-letterspacing sc-xxxmedium sc-marginbottom-small'><b>Individual Session</b></div>
+											<div class='sc-italics sc-letterspacing-small'><strong>Standard Rate</strong></div>
+											<div class='sc-letterspacing sc-xxxmedium sc-marginbottom-small'><strong>Individual Session</strong></div>
 											<div class="sc-escrow sc-halfxlarge sc-opacity sc-margintop-medium sc-gray sc-letterspacing-xsmall">$65/hour</div>
 											<button class="sc-button-act sc-margintop-large sc-marginbottom" onclick="document.getElementsByClassName('sc-modal')[0].style.display='block'">
 												ACT NOW
@@ -207,8 +207,8 @@
 									</div>
 									<div class='sc-three-pictures sc-three-pictures-space sc-marginbottom sc-marginleft-3p'>
 										<div class='sc-three-pictures-text-container sc-white-background sc-column sc-center'>
-											<div class='sc-italics sc-letterspacing-small'><b>15% Off 4 Weeks</b></div>
-											<div class='sc-letterspacing sc-xxxmedium sc-marginbottom-small'><b>Package</b></div>
+											<div class='sc-italics sc-letterspacing-small'><strong>15% Off 4 Weeks</strong></div>
+											<div class='sc-letterspacing sc-xxxmedium sc-marginbottom-small'><strong>Package</strong></div>
 											<div class="sc-escrow sc-halfxlarge sc-opacity sc-margintop-medium sc-gray sc-letterspacing-xsmall">$55/hour</div>
 											<div class="sc-margintop-large sc-marginbottom">
 												<a href='package-s/index.php' class='sc-button-act sc-href-no-underline'>ACT NOW</a>
@@ -218,8 +218,8 @@
 									<div class='sc-three-pictures sc-three-pictures-space sc-marginbottom sc-marginleft-3p'>
 										<div class='sc-three-pictures-text-container sc-white-background sc-column sc-center'>
 											<div class='sc-best-value sc-white'>Best Value</div>
-											<div class='sc-italics sc-letterspacing-small sc-margintop-medium'><b>15% Off 8 Weeks</b></div>
-											<div class='sc-letterspacing sc-xxxmedium sc-marginbottom-small'><b>Package</b></div>
+											<div class='sc-italics sc-letterspacing-small sc-margintop-medium'><strong>15% Off 8 Weeks</strong></div>
+											<div class='sc-letterspacing sc-xxxmedium sc-marginbottom-small'><strong>Package</strong></div>
 											<div class="sc-escrow sc-halfxlarge sc-opacity sc-margintop-medium sc-gray sc-letterspacing-xsmall">$55/hour</div>
 											<div class="sc-margintop-large sc-marginbottom">
 												<a href='package/index.php' class='sc-button-act sc-href-no-underline'>ACT NOW</a>
@@ -231,7 +231,7 @@
 							<div class='sc-price-options-phone'>
 								<div class='sc-white-background sc-margintop-3p sc-marginbottom-large sc-price-options-phone-padding'>
 									<div class='sc-split-sections-sphone sc-left'>
-										<div class='sc-escrow sc-xxlarge'><b>Learning Programs</b></div>
+										<div class='sc-escrow sc-xxlarge'><strong>Learning Programs</strong></div>
 										<div id='sphone-droplist' style='overflow:hidden; max-height: 0; opacity: 0; transition: max-height 400ms 0ms, opacity 500ms 0ms;'>
 											<ul class='sc-ul2 sc-gray sc-Noto-Sans-KR'>
 												<li>Personalised lesson plans</li>
@@ -241,15 +241,15 @@
 												<li>First individual session secured by a no questions asked money back guarantee</li>
 											</ul>
 										</div>
-										<button class='sc-sphone-program-features-button sc-lightblue sc-lightbold sc-xmedium sc-white-background' onclick='sphoneProgramFeatures()'>
+										<button class='sc-sphone-program-features-button sc-lightblue sc-lightbold sc-xmedium sc-white-background' id='sphoneFeatures'>
 											View Program Features
 										</button>
-										<img src='images/Vector.jpg' class='sc-pic-vector sc-center' onclick='sphoneProgramFeatures()'>
+										<img src='images/Vector.jpg' class='sc-pic-vector sc-center' id='sphoneVector' alt='Vector'>
 									</div>
-									<div class='sc-left' onchange='priceRadio()'>
+									<div class='sc-left' id="priceRadioElement">
 										<label class='sc-radio-container sc-sphone-margintop-medium'>
 											<div>
-												<b>Standard Rate</b>
+												<strong>Standard Rate</strong>
 												<span class='sc-italics sc-gray'> - $65/hour</span>
 											</div>
 											<div class='sc-lightgray sc-margintop-small'>Individual Session</div>
@@ -258,7 +258,7 @@
 										</label>
 										<label class='sc-radio-container'>
 											<div>
-												<b>15% off 4 weeks</b>
+												<strong>15% off 4 weeks</strong>
 												<span class='sc-italics sc-gray'> - $55/hour</span>
 											</div>
 											<div class='sc-lightgray sc-margintop-small'>Package</div>
@@ -266,9 +266,9 @@
 											<span class='sc-radio-button'></span>
 										</label>
 										<label class='sc-radio-container'>
-											<div class='sc-marginbottom-xsmall sc-medium'><b>Best Value</b></div>
+											<div class='sc-marginbottom-xsmall sc-medium'><strong>Best Value</strong></div>
 											<div>
-												<b>15% off 8 weeks</b>
+												<strong>15% off 8 weeks</strong>
 												<span class='sc-italics sc-gray'> - $55/hour</span>
 											</div>
 											<div class='sc-lightgray sc-margintop-small'>Package</div>
@@ -477,7 +477,7 @@
 						<br>
 						<div class='sc-gray'>
 							<div>
-								<img src='images/Team.png' class='sc-pic-team'>
+								<img src='images/Team.png' class='sc-pic-team' alt='Team'>
 							</div>
 							<div class='sc-marginbottom-large'>
 								We truly believe that everyone can succeed academically if given the right mindset and the proper 
@@ -499,7 +499,7 @@
 								<a href='profiles/index.html' class='sc-button-team sc-href-no-underline sc-center'>MEET THE TEAM</a>
 							</div>
 							<div class='sc-marginbottom-large'>
-								<b>We are the best at what we do.</b> Our team of dedicated tutors are experts in their fields of study, with stellar achievements in a wide spectrum of 
+								<strong>We are the best at what we do.</strong> Our team of dedicated tutors are experts in their fields of study, with stellar achievements in a wide spectrum of 
 								disciplines. We are familiar with contemporary curriculums and courses, and can communicate the concepts to you in a fast and practical manner.
 							</div>
 							<div>
@@ -513,7 +513,7 @@
 
 			<!--End Image-->
 			<div class='sc-center'>
-				<img src='images/Comparison Chart.png' class='sc-pic-comparison'>
+				<img src='images/Comparison Chart.png' class='sc-pic-comparison' alt='Comparison Chart'>
 			</div>
 			<div class='sc-smallpadding'></div>
 
@@ -525,83 +525,9 @@
 
 
 			<!--Scripts-->
-			<script>
-				// Automatic Slideshow
-				var index = 0;
-				carousel();
-				
-				function carousel() {
-					var i;
-					var scrollers = document.getElementsByClassName("sc-scroller");
-					for (i = 0; i < scrollers.length; i++) {
-						scrollers[i].style.display = "none";  
-					}
-					index++;
-					if (index > scrollers.length) {index = 1}    
-					scrollers[index-1].style.display = "block";  
-					setTimeout(carousel, 6500);
-				}
-				// Modal Outside Click Reset
-				var modal = document.getElementsByClassName('sc-modal')[0];
-				window.onclick = function(event) {
-					if (event.target == modal) {
-						modal.style.display = "none";
-					}
-				}
-				// Mobile Price Radio Options
-				priceRadio();
-
-				function priceRadio() {
-					var radioButton = document.getElementById("price-radio-button");
-					if (document.getElementById("price-radio-individual").checked){
-						radioButton.innerHTML = 
-						"<button class='sc-button-act' onclick=document.getElementsByClassName('sc-modal')[0].style.display='block'>CONTINUE TO AVAILABILITY</button>";
-					} else if (document.getElementById("price-radio-package1").checked){
-						radioButton.innerHTML =
-						"<a href='package-s/index.php' class='sc-button-act sc-href-no-underline'>CONTINUE TO AVAILABILITY</a>";
-					} else if (document.getElementById("price-radio-package2").checked){
-						radioButton.innerHTML =
-						"<a href='package/index.php' class='sc-button-act sc-href-no-underline'>CONTINUE TO AVAILABILITY</a>";
-					}
-				}
-				// Small Phone Program Features Droplist
-				function sphoneProgramFeatures() {
-					var sphoneDroplist = document.getElementById('sphone-droplist');
-					if (sphoneDroplist.style.opacity == '0'){
-						document.getElementsByClassName('sc-sphone-program-features-button')[0].innerHTML = "View Less";
-						sphoneDroplist.style.maxHeight = '167px';
-						sphoneDroplist.style.opacity = '1';
-						sphoneDroplist.style.transition = 'max-height 400ms 0ms, opacity 500ms 0ms';
-					} else{
-						document.getElementsByClassName('sc-sphone-program-features-button')[0].innerHTML = "View Program Features";
-						sphoneDroplist.style.maxHeight = '0';
-						sphoneDroplist.style.opacity = '0';
-						sphoneDroplist.style.transition = 'max-height 400ms 0ms, opacity 400ms 0ms'; 
-					}
-				}
-				// Mobile Stack Button
-				function mobileStackButton() {
-					var mobileStackButton = document.getElementsByClassName('sc-mobile-stack-button')[0];
-					if (mobileStackButton.style.opacity == '0'){
-						mobileStackButton.style.zIndex = '1';
-						mobileStackButton.style.opacity = '1';
-						mobileStackButton.style.transition = 'opacity 200ms 0ms, z-index 0ms 0ms';
-					} else{
-						mobileStackButton.style.opacity = '0';
-						mobileStackButton.style.zIndex = '-1';
-						mobileStackButton.style.transition = 'opacity 200ms 0ms, z-index 0ms 200ms';
-					}
-				}
-				// Close Mobile Stack Button
-				function mobileStackButtonClose() {
-					var mobileStackButton = document.getElementsByClassName('sc-mobile-stack-button')[0];
-					if (mobileStackButton.style.opacity == '1') {
-						mobileStackButton.style.opacity = '0';
-						mobileStackButton.style.zIndex = '-1';
-						mobileStackButton.style.transition = 'opacity 200ms 0ms, z-index 0ms 200ms';
-					}
-				}
-			</script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+			<script src='/scripts/mobileStackButton.js'></script>
+			<script src='/scripts/index.js'></script>
 		</div>
 	</body>
 </html>
