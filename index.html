@@ -23,56 +23,328 @@
 			with 100% 5-star reviews and over 1,000 combined hours of private tutoring experience. Monthly payments available!">
 
 		<!--CSS Stylesheets-->
-		<link rel="stylesheet" href="stylesheets/styles_1.4.css">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:light|Inter">
+		<script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" 
+			integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+		<link rel="stylesheet" href="stylesheets/styles_1.5.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 	</head>
 
 	
 	<body>
-		<div class="sc-website sc-white-background">
-			<header>
-				<!--Navbar-->
-				<div class="sc-Navbar sc-shadow sc-white-background">
-					<div class="sc-Navbar-left">
-						<div class="sc-Navbar-elem">
-							<a href="sms:+18586499184" class="sc-clickable sc-verdana sc-xmedium sc-gray"><span>💬 TEXT</span></a>
-						</div>
-						<div class="sc-Navbar-elem">
-							<a href="mailto:sam@chuntutors.com" class="sc-clickable sc-verdana sc-xmedium sc-gray"><span>✉️ EMAIL</span></a>
-						</div>
-					</div>
-					<div class='sc-Navbar-left-mobile'>
-						<button class='sc-Navbar-mobile-stack-button sc-white-background' id='mobileStackButton'>
-							<img src='images/stack icon.png' class='sc-pic-stack-button' alt='Mobile Stack Button'>
-						</button>
-					</div>
-					<div class="sc-Navbar-center sc-center">
-						<div class="sc-Navbar-logo">
-							<a href="" id="mainLogo">
-								<img src="images/Logo.png" class='sc-pic-logo' alt='Chun Tutors Logo'>
-							</a>
-						</div>
-					</div>
-					<div class="sc-Navbar-right"></div>
-				</div>
+		<div class="sc-website">
+			
+			<!--Navbar-->
+			<nav class="navbar navbar-expand-md navbar-dark fixed-top">
+				<div class="container">
+					<a class="navbar-brand" href="#">
+						<img src="images/Logo.png" alt='Chun Tutors Logo'>
+					</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" 
+						aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+						<em class="fas fa-bars ms-1"></em>
+					</button>
 
-				<!--Mobile Stack Button-->
-				<div class='sc-mobile-stack-button sc-white-background' style='opacity:0; z-index:-1; transition:opacity 200ms 0ms, z-index 0ms 0ms;'>
-					<a href="sms:+18586499184" class="sc-mobile-Navbar-elem sc-center sc-clickable sc-verdana sc-xlarge"><span>💬 TEXT</span></a>
-					<a href="mailto:sam@chuntutors.com" class="sc-mobile-Navbar-elem sc-center sc-clickable sc-verdana sc-xlarge"><span>✉️ EMAIL</span></a>
+					<div class="collapse navbar-collapse" id="navbarResponsive">
+						<ul class="navbar-nav ms-auto py-4 py-lg-0">
+							<li class="nav-item">
+								<a class="nav-link text-uppercase active" aria-current="page" href="#">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-uppercase" href="about/index.html">About</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-uppercase" href="team/index.html">Team</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link text-uppercase dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+										Services
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<li><a class="dropdown-item" href="how-it-works/index.html">How It Works</a></li>
+										<li><a class="dropdown-item" href="why-choose-us/index.html">Why Choose Us</a></li>
+										<li><hr class="dropdown-divider"></li>
+										<li><a class="dropdown-item" href="#">Our Services</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown contact">
+								<a class="nav-link text-uppercase" href="#" data-bs-toggle="dropdown">Contact</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<li><a class="dropdown-item" href="contact/consultation/index.html">Book Your Consultation</a></li>
+									<li><a class="dropdown-item disabled" href="#">Join Us (For Tutors)</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+
+
+			<!--Masthead-->
+			<header class="masthead">
+				<div class="container">
+					<div class="masthead-subheading">Welcome to Chun Tutors!</div>
+					<div class="masthead-heading text-uppercase">Experienced Academic Specialists</div>
+					<a class="btn btn-primary btn-xl text-uppercase" href="#services">Learn More</a>
 				</div>
 			</header>
 
-			<main>
-				<!--Content-->
-				<div class='sc-content'>
-					<!--Banner-->
-					<div class='sc-banner sc-center sc-white sc-green-background sc-trebuchet sc-shadow-4'>
-						<h1 class='sc-xxxlarge'>Chun Tutors</h1>
-						<p>Experienced tutor specialists with affordable rates.</p>
+
+			<!--Vector Section-->
+			<section class="page-section" id="vectors">
+				<div class="container">
+					<div class="row" style="margin-top:5em;">
+						<div class="col-md-6 text-center">
+							<h2 class="section-heading">Expert Tutors</h2>
+							<h3 class="section-subheading">
+								We are the #1 rated online tutoring network in the San Diego area, with over 1,000 combined hours of private 
+								tutoring experience. Our tutors are distinguished in their fields of study, and have a passion for education. 
+								Leveraging our knowledge and dynamism, we can guide your  academic success through personalized
+								lesson plans and focused mentorship programs.
+							</h3>
+							<a class="btn btn-primary btn-xl text-uppercase sc-button" href="about/index.html">Read More</a>
+						</div>
+						<div class="col-md-6 text-center">
+							<img class="img-fluid" src="images/vectors/Vector_Tutor.png" alt="..." />
+						</div>
 					</div>
 
-					<!--Intro Section-->
+					<div class="row" style="margin-top:7em;">
+						<div class="col-md-6 text-center">
+							<img class="img-fluid" src="images/vectors/Vector_Online.png" alt="..." />
+						</div>
+						<div class="col-md-6 text-center">
+							<h2 class="section-heading">Services</h2>
+							<h3 class="section-subheading">								
+								Whether you're looking to catch up on material for a test, schedule regular sessions to stay on top of your classes, 
+								find homework help, seek career path mentorship, or prepare for a standardized test, we've got you covered. Our specialists know the 
+								learning techniques that are scientifically proven to promote success, 
+								and we will explain complicated topics in a simple and straightforward manner.
+							</h3>
+							<a class="btn btn-primary btn-xl text-uppercase sc-button" href="how-it-works/index.html">View Services</a>
+						</div>
+					</div>
+
+					<div class="row" style="margin-top:7em;">
+						<div class="col-md-6 text-center">
+							<h2 class="section-heading">Our Philosophy</h2>
+							<h3 class="section-subheading">
+								Thirty years of research shows that students with quality tutors significantly outperform those without one. 
+								If you're feeling lost in your classes or if you're having trouble keeping up with the workload, there's no need to 
+								walk the road alone. We aim to create a tutoring and mentorship community where we can help you stay on top of the curve, 
+								and we can leverage our years of experience to save you time and effort.
+							</h3>
+							<a class="btn btn-primary btn-xl text-uppercase sc-button" href="why-choose-us/index.html">Learn More</a>
+						</div>
+						<div class="col-md-6 text-center">
+							<img class="img-fluid" src="images/vectors/Vector_Books.jpeg" alt="..." />
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<!--Reviews Grid-->
+			<section class="page-section bg-lightgray" id="reviews">
+				<div class="container">
+					<div class="text-center">
+						<h2 class="section-heading text-uppercase">What Our Fantastic Students Say</h2>
+					</div>
+					<div class="row justify-content-center">
+						<div class="col-9">
+							<!--Scrolling Reviews-->
+							<div class='comment' style="display:block;">
+								<div class='comment-text text-muted'>
+									"Sam was so patient and knowledgeable. I was behind and he caught me up so I could pass a test. Highly recommend.
+									He is clear and precise. Makes difficult subjects easy to understand."
+								</div>
+								<div class='comment-name'>
+									— SCOTT
+								</div>
+							</div>
+
+							<div class='comment' style="display:none;">
+								<div class='comment-text text-muted'>
+									"Max is an excellent tutor! He is very knowledgeable and patient with my son. My son loves his class and is really looking
+									forward to meet him again! I would 100% recommend Chun Tutors to everyone who is looking for tutoring!"
+								</div>
+								<div class='comment-name'>
+									— JING
+								</div>
+							</div>
+
+							<div class='comment' style="display:none;">
+								<div class='comment-text text-muted'>
+									"Had Calc BC class with Maxwell for my son. Maxwell is knowledgeable and friendly. My son is very happy with the class. Will definitely
+									recommend Chun Tutors and will schedule another session going forward."
+								</div>
+								<div class='comment-name'>
+									— PAVANI
+								</div>
+							</div>
+
+							<div class='comment' style="display:none;">
+								<div class='comment-text text-muted'>
+									"Sam was a life saver and very professional. I was confused about a supply and demand chart. Sam assisted me with patience and understanding.
+									I felt comfortable with him. Thank you once again."
+								</div>
+								<div class='comment-name'>
+									— JON
+								</div>
+							</div>
+
+							<!--Rating-->
+							<div class='text-center sc-smallpadding'>
+								<img src="images/Ratings.png" class='sc-pic-ratings' alt='Chun Tutors Ratings'>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<!--Timeline-->
+			<section class="page-section" id="timeline">
+				<div class="container">
+					<div class="text-center">
+						<h2 class="section-heading text-uppercase">The Learning Process</h2>
+						<h3 class="section-subheading fst-italic text-muted">Our Roadmap to Academic Excellence</h3>
+					</div>
+					<ul class="timeline">
+						<li>
+							<div class="timeline-image">
+								<img class="rounded-circle img-fluid" src="images/frontpage/Consultation.jpg" alt="..." />
+							</div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h4>Step One</h4>
+									<h4 class="subheading">Book Your Free Consultation</h4>
+								</div>
+								<div class="timeline-body">
+									<p class="text-muted">
+										Contact us through our 
+										<a class="form-link" href="contact/consultation/index.html">short form</a>,
+										and we'll schedule a free preliminary online consultation session where we can discuss
+										your academic goals, the classes and topics you're looking for help in, and how we can plan for your future.
+									</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted">
+							<div class="timeline-image"><img class="rounded-circle img-fluid" src="images/frontpage/OnlineTutor.jpg" alt="..." /></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h4>Step Two</h4>
+									<h4 class="subheading">Schedule Your First Session</h4>
+								</div>
+								<div class="timeline-body">
+									<p class="text-muted">
+										After the consultation, we will pair you with your preferred specialist or with a tutor who we think is a good fit.
+										We'll also create a personalized online lesson plan based on your academic goals and your learning style.
+									</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="timeline-image"><img class="rounded-circle img-fluid" src="images/frontpage/Lightbulb.jpg" alt="..." /></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h4>Step Three</h4>
+									<h4 class="subheading">Transition to Full Capture</h4>
+								</div>
+								<div class="timeline-body">
+									<p class="text-muted">
+										Students frequently make the mistake of memorizing material, without fully capturing the concepts. We'll break down complicated
+										topics for you into bite-sized ideas, and show you how to absorb information without needing to perform rote memorization.
+									</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted">
+							<div class="timeline-image"><img class="rounded-circle img-fluid" src="images/frontpage/Success.jpg" alt="..." /></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h4>Step Four</h4>
+									<h4 class="subheading">Review, Rinse, and Repeat</h4>
+								</div>
+								<div class="timeline-body">
+									<p class="text-muted">
+										Once you've absorbed the material, we'll help you review the concepts so that we can prepare you for additional learning. 
+										Our specialists will assign optional practice questions, and we'll guide you each step of the way.
+									</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted">
+							<div class="timeline-image final-timeline-image">
+								<h4>
+									Let's Pave
+									<br />
+									Our Way
+									<br />
+									to Success!
+								</h4>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+
+			<!-- Team-->
+			<section class="page-section bg-lightgray" id="team">
+				<div class="container">
+					<div class="text-center">
+						<h2 class="section-heading text-uppercase">Our Amazing Leadership Team</h2>
+						<h3 class="section-subheading text-muted fst-italic">We have strong technical and professional backgrounds in industry and technology.</h3>
+					</div>
+					<div class="row">
+						<div class="col-lg-4">
+							<div class="team-member">
+								<img class="mx-auto rounded-circle" src="images/tutors/Sam.jpg" alt="..." />
+								<h4>Sam Chun</h4>
+								<p class="text-muted fst-italic">Founder and Owner</p>
+								<p class="text-muted team-member-text">
+									Launched Chun Tutors in December 2020. Columbia University physics and mathematics undergraduate.
+									Managing partner at America's Construction Group in New York City. Senior Algorithm Engineer
+									at the startup Embarc Fitness.
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="team-member">
+								<img class="mx-auto rounded-circle" src="images/tutors/Maxwell.jpg" alt="..." />
+								<h4>Maxwell Brown</h4>
+								<p class="text-muted fst-italic">Lead Developer</p>
+								<p class="text-muted team-member-text">
+									Harvard University undergraduate and Varsity track and field athlete. National Merit Finalist and achieved a perfect score on the ACT. Conducted
+									materials science and biophysics research with Dr. Rae Anderson at the University of San Diego.
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="team-member">
+								<img class="mx-auto rounded-circle" src="images/tutors/Samy.jpg" alt="..." />
+								<h4>Samy Hamdy</h4>
+								<p class="text-muted fst-italic">Lead Marketer</p>
+								<p class="text-muted team-member-text">
+									Cornell University industrial and labor relations third-year undergraduate. Supply Chain Intern at FLX Bike in San Diego.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class='row text-center' style="margin-top: 2rem;">
+						<div class='col-md-12'>
+							<a class="btn btn-primary btn-xl text-uppercase sc-button" href="team/index.html">MEET OUR TUTORS</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			
+			<!-- <main>
+				<div class='sc-content'>
 					<div class='sc-intro sc-justify sc-gray'>
 						<span>
 							<div class='sc-marginbottom-large'>
@@ -81,22 +353,16 @@
 							</div>	
 
 							<div>
-								Whether you're looking to catch up on material for a test, or you want to schedule regular sessions to stay on top of your class, we've got you covered 
-								with our finest educators.
+
 							</div>
 						</span>
-						<div class='sc-center sc-smallpadding'>
-							<img src="images/Ratings.png" class='sc-pic-ratings' alt='Chun Tutors Ratings'>
-						</div>
 						<span class='sc-smallpadding'>
 							<div class='sc-marginbottom-large'>
-								Our students have scored considerably better on tests and exams after only two sessions, with steady improvements over the semester. With personalized
-								lesson plans, we can ensure that you are learning as much as possible through methods that are best tailored for you.
+
 							</div>
 
 							<div>
-								We are undergraduates at top universities in the nation such as Harvard, Columbia, and Cornell. Our tutor specialists know the learning 
-								techniques that are proven to guarantee success, and we are happy to share the strategies we used to achieve effective results in a modest amount of time. 
+								We are undergraduates at top universities in the nation such as Harvard, Columbia, and Cornell. 
 							</div>
 						</span>
 						<div class='sc-notsphone-mediumpadding'></div>
@@ -116,24 +382,7 @@
 						<div class='sc-notsphone-xsmallpadding'></div>
 					</div>
 
-					<!--Scrolling Reviews-->
-					<div class='sc-notsphone-smallpadding sc-marginright-xlarge-neg sc-marginleft-xlarge-neg'>
-						<div class='sc-scroller sc-center' style='display:block;'>
-							<img src="images/Review1.png" class='sc-pic-review' alt='Chun Tutors Reviews'>
-						</div>
-						<div class='sc-scroller sc-center' style='display:none;'>
-							<img src="images/Review2.png" class='sc-pic-review' alt='Chun Tutors Reviews'>
-						</div>
-						<div class='sc-scroller sc-center' style='display:none;'>
-							<img src="images/Review3.png" class='sc-pic-review' alt='Chun Tutors Reviews'>
-						</div>
-						<div class='sc-scroller sc-center' style='display:none;'>
-							<img src="images/Review4.png" class='sc-pic-review' alt='Chun Tutors Reviews'>
-						</div>
-					</div>
-					<div class='sc-notsphone-smallpadding'></div>
 
-					<!--Pricing and Availability-->
 					<div class='sc-green-background sc-shadow-4'>
 						<div class='sc-pricing-and-avail sc-center'>
 							<div class='sc-white'>
@@ -287,10 +536,8 @@
 						</div>
 					</div>
 
-					<!--Individual Tutoring Modal-->
 					<div class='sc-modal'>
 						<div class='sc-modal-content sc-animate-from-top sc-shadow-2'>
-							<!--Completed Modal-->
 							<div id="completed-modal" style='display:none;'>
 								<header class='sc-smallpadding sc-green-background sc-white'>
 									<span onclick="document.getElementsByClassName('sc-modal')[0].style.display='none'" class="sc-x-button sc-xmedium">&#10006;</span>
@@ -309,166 +556,62 @@
 								<div class='sc-smallpadding'></div>
 							</div>
 
-							<!--Uncompleted Modal-->
+
 							<div id="uncompleted-modal">
 								<header class='sc-smallpadding sc-green-background sc-white'>
 									<span onclick="document.getElementsByClassName('sc-modal')[0].style.display='none'" class="sc-x-button sc-xmedium">&#10006;</span>
 									<h2 class='sc-sphone-margins sc-center sc-marginleft-medium sc-marginright-medium'>Individual Session Booking</h2>
 								</header>
 
-								<!--PHP Script Preform-->
-								<?php
-									$name = $pnumber = $pref_tutor = "";
-									$nameErr = $pnumberErr = "";
-								
-									if ($_SERVER["REQUEST_METHOD"] == "POST") {
-										if (empty($_POST["name"])) {
-											$nameErr = "Enter a name";
-										} else {
-											$name = test_input($_POST["name"]);
-											// check if name only contains letters and whitespace
-											if (!preg_match("/^[a-zA-Z-' ]*$/", $name)) {
-												$nameErr = "Only letters and white space allowed";
-											}
-										}
-										
-										if (empty($_POST["pnumber"])) {
-											$pnumberErr = "Enter a phone number";
-										} else {
-											$pnumber = test_input($_POST["pnumber"]);
-											// check if phone number is well-formed
-											if (!preg_match("/^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$/", $pnumber)) {
-												$pnumberErr = "Invalid phone number";
-											}
-										}
 
-										$pref_tutor = test_input($_POST["pref_tutor"]);
-									}
-							
-									function test_input($data) {
-										$data = trim($data);
-										$data = stripslashes($data);
-										$data = htmlspecialchars($data);
-										return $data;
-									}
-								?>
-
-								<!--Form-->
-								<form action='<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>' method='post'>
+								<form id='modal-form' novalidate>
 									<div class='sc-xsmallpadding'></div>
 									<div class='sc-pricing-elem'>
 										<div class='sc-marginbottom'>
-											<b>Full Name</b>
+											<strong>Full Name</strong>
 										</div>
-										<div>
-											<input type='text' class='sc-form' name='name' value="<?php echo $name;?>">
+										<input type='text' class='sc-form form-control' name='name' required>
+										<div class="valid-feedback">
+											Looks good!
 										</div>
-										<div class='sc-margintop-xsmall sc-red sc-xmedium'><?php echo $nameErr;?></div>
+										<div class="invalid-feedback">
+											Please enter a name.
+										</div>
 									</div>
 									<div class='sc-pricing-elem'>
 										<div class='sc-marginbottom'>
-											<b>Phone Number</b>
+											<strong>Phone Number</strong>
 										</div>
-										<div>
-											<input type='text' class='sc-form' name='pnumber' value="<?php echo $pnumber;?>">
+										<input type='text' class='sc-form form-control' name='pnumber' required>
+										<div class="valid-feedback">
+											Looks good!
 										</div>
-										<div class='sc-margintop-xsmall sc-red sc-xmedium'><?php echo $pnumberErr;?></div>
+										<div class="invalid-feedback">
+											Please enter a valid phone number.
+										</div>
 									</div>
 									<div class='sc-pricing-elem'>
 										<div class='sc-marginbottom'>
-											<b>Preferred Tutor</b>
+											<strong>Preferred Tutor</strong>
 										</div>
 										<div>
-											<select class='sc-select' id='select-tutor-preference' name='pref_tutor'>
+											<select class='sc-select form-select' id='select-tutor-preference' name='pref_tutor'>
 												<option value='No preference'>No preference</option>
-												<?php
-													$servername = "localhost";
-													$username = "uooqnklfygq2q";
-													$password = "(3w?@q23s5fP";
-													$dbname = "dbizw9tdvmzdch";
-										
-													// Create connection
-													$conn = new mysqli($servername, $username, $password, $dbname);
-													// Check connection
-													if ($conn->connect_error) {
-														die("Connection failed: " . $conn->connect_error);
-													}
-													
-													$sql = "SELECT * FROM Tutors";
-													$result = $conn->query($sql);
-
-													// output data of each row
-													while($row = $result->fetch_assoc()) {
-														echo "<option value='" . $row["tutor"] . "'>" . $row["tutor"] . "</option>";
-													}
-					
-													$conn->close();
-												?>
 											</select>
-											<script>
-												var pref_tutor_children = document.getElementsByName('pref_tutor')[0].children;
-												var selected_pref_tutor = <?php echo "'" . $pref_tutor . "'";?>;
-
-												for (var i = 0; i < pref_tutor_children.length; i++) {
-													if (pref_tutor_children[i].innerHTML == selected_pref_tutor) {
-														pref_tutor_children[i].selected = true;
-														break;
-													}
-												}
-											</script>
 										</div>
 									</div>
 									<div class='sc-margintop-medium sc-button-submit-margin sc-marginbottom'>
-										<input type='submit' value='BOOK YOUR FIRST SESSION' 
-											class='sc-button-act'>
+										<button id='form-submit-button' class='sc-button-act' type='submit'>
+											<span>BOOK YOUR FIRST SESSION</span>
+										</button>
 									</div>
 									<br>
 								</form>
-
-								<!--PHP Script Postform-->
-								<?php
-									if ($_SERVER["REQUEST_METHOD"] == "POST") {
-										if (!empty($nameErr)) {
-											echo "<script>document.getElementsByName('name')[0].style.border = '2px solid #ff2929';</script>";
-										}
-										
-										if (!empty($pnumberErr)) {
-											echo "<script>document.getElementsByName('pnumber')[0].style.border = '2px solid #ff2929';</script>";
-										}
-		
-										if (empty($nameErr . $pnumberErr)) {	
-											$servername = "localhost";
-											$username = "uooqnklfygq2q";
-											$password = "(3w?@q23s5fP";
-											$dbname = "dbizw9tdvmzdch";
-
-											// Create connection
-											$conn = new mysqli($servername, $username, $password, $dbname);
-											// Check connection
-											if ($conn->connect_error) {
-												die("Connection failed: " . $conn->connect_error);
-											}
-
-											$sql = "INSERT INTO Individual (name, pnumber, pref_tutor)
-											VALUES (?, ?, ?)";
-											$stmt = $conn->prepare($sql);
-											$stmt->bind_param('sss', $name, $pnumber, $pref_tutor);
-											$stmt->execute();
-
-											$conn->close();
-
-											echo "<script>document.getElementById('completed-modal').style.display='block'</script>";
-											echo "<script>document.getElementById('uncompleted-modal').style.display='none'</script>";
-										} 
-										
-										echo "<script>document.getElementsByClassName('sc-modal')[0].style.display='block'</script>";
-									}
-								?>
 							</div>
 						</div>
 					</div>
 
-					<!--Our Tutoring Philosophy-->
+
 					<div class='sc-team'>
 						<div class='sc-smallpadding'></div>
 						<div class='sc-gray sc-center'>
@@ -509,25 +652,28 @@
 						<div class='sc-mediumpadding'></div>
 					</div>
 				</div>
-			</main>
+			</main> -->
 
-			<!--End Image-->
-			<div class='sc-center'>
-				<img src='images/Comparison Chart.png' class='sc-pic-comparison' alt='Comparison Chart'>
+			<!--Comparison Chart-->
+			<div class='text-center sc-comparison-chart-container'>
+				<a href="why-choose-us/index.html">
+					<img src='images/Comparison Chart.png' class='sc-pic-comparison-chart' alt='Comparison Chart'>
+				</a>
 			</div>
-			<div class='sc-smallpadding'></div>
 
-			<footer class='sc-footer sc-center sc-gray sc-medium'>
+			<footer class='sc-footer text-center sc-gray sc-medium'>
                 <div class='sc-footerline'></div>
-				<p>&#169; Copyright 2021 Chun Tutors, LLC. All Rights Reserved.</p>
+				<p>&#169; Copyright 2021 Chun Tutors. All Rights Reserved.</p>
 				<div class='sc-smallpadding'></div>
 			</footer>
 
 
 			<!--Scripts-->
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+				integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-			<script src='/scripts/mobileStackButton.js'></script>
-			<script src='/scripts/index.js'></script>
+			<script src='./scripts/navbar.js'></script>
+			<script src='./scripts/scrollers.js'></script>
 		</div>
 	</body>
 </html>
