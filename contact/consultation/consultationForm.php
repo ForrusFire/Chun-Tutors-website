@@ -12,10 +12,15 @@
             die("Connection failed: " . $conn->connect_error);
         }
 
-        $sql = "INSERT INTO Individual (name, pnumber, pref_tutor)
-        VALUES (?, ?, ?)";
+        // Create random User ID
+        $userID = random_int(100000000, 999999999);
+        $basePrice = 0;
+
+        $sql = "INSERT INTO Main (UserID, Name, PhoneNumber, Email, Password, SPT, StudentName, Subjects, Level, Comments, BasePrice) 
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
         $stmt = $conn->prepare($sql);
-        $stmt->bind_param('sss', $_POST["name"], $_POST["pnumber"], $_POST["pref_tutor"]);
+        $stmt->bind_param('sssssssssss', $userID, $_POST["name"], $_POST["phone-number"], $_POST["email-address"], 
+            $_POST["password"], $_POST["student-parent"], $_POST["student-name"], $_POST["subjects"], $_POST["level"], $_POST["additional"], $basePrice);
         $stmt->execute();
 
         $conn->close();

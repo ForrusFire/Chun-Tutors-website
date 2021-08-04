@@ -44,6 +44,18 @@ main {
 .navbar-team .nav-item .nav-link {
     color: black;
 }
+.navbar-nav .nav-item .login-button {
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 3px;
+    margin-left: 1.25rem;
+}
+.navbar-nav .nav-item .login-button .nav-link {
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+}
+.navbar-team .nav-item .login-button {
+    border: 1px solid rgb(121, 121, 121) !important;
+}
 
 
 @media (min-width: 768px) {
@@ -581,6 +593,11 @@ header.masthead .masthead-heading {
     /* border-radius: 0.5rem;
     border: 1px solid #d6d6d6; */
 }
+#form .password-eye,
+#form .password-eye:hover {
+    color: #333;
+    width: 1.25em;
+}
 #checkmark {
     padding-top: 0;
     padding-bottom: 3rem;
@@ -644,6 +661,84 @@ header.masthead .masthead-heading {
     background-color:black;
     color:white;
 }
+
+
+
+/* (Services Page) */
+#services {
+    padding-top: 5rem;
+}
+#services .section-heading {
+    font-weight: 600;
+    font-size: 1.75rem;
+}
+#services .login-text {
+    color: rgb(216, 73, 73, 0.9);
+    margin-bottom: 2rem;
+}
+#services .login-link {
+    text-decoration: none;
+    color: rgb(0, 0, 231);
+}
+#services .login-link:hover {
+    color:rgb(136, 204, 247);
+}
+#services .table-wrapper {
+    padding: 2rem;
+    background: #efefef;
+}
+#services .table-head-wrapper {
+    background: #a3c6d2;
+    margin: -2rem;
+    margin-bottom: 0;
+    padding: 1.75rem;
+}
+#services .table-heading {
+    letter-spacing: 1px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: white;
+}
+#services ul {
+    list-style: none;
+    font-family: 'Noto Sans', sans-serif;
+    padding-top: 2rem;
+    padding-left: 0;
+    margin-bottom:0;
+}
+#services li {
+    padding: .5rem;
+    font-size: 1rem;
+    border-bottom: 1px solid #d8d7d7;
+}
+#services .button-container {
+    padding-top: 1.75rem;
+    padding-bottom: 0.5rem;
+}
+#services .button {
+    border-radius: 100px;
+    padding: .5rem 2rem;
+    font-weight: 700;
+    font-size: .75rem;
+    background-color: #2b6477;
+    border-color: #2b6477;
+    color: white;
+    border-width: 2px;
+    letter-spacing: 2px;
+    font-family: 'Noto Sans', sans-serif;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+#services .button:hover {
+    background-color: #143742;
+    box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #f3f3f3;
+}
+
+
+
+/* (Login Page) */
+
 
 
 
