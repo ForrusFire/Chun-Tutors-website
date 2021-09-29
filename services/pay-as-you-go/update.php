@@ -1,4 +1,6 @@
 <?php
+    session_start();
+
     require_once("../../keyConstants.php");
 
     try {
@@ -9,18 +11,17 @@
             die("Connection failed: " . $conn->connect_error);
         }
 
-        $sql = "SELECT Email FROM Main";
-        $result = $conn->query($sql);
-        
-        $isValidEmail = true;
-        while ($row = $result->fetch_assoc()) {
-            if ($_GET['emailaddress'] == $row["Email"]) {
-                $isValidEmail = false;
-            }
-        }
+        $sql = "UPDATE Main SET Status=? WHERE UserID=" . strval($_SESSION['user']);
+        $stmt = $conn->prepare($sql);
+
+        // Determine what to change Status to
+        $status = "PAYG";
+
+        $stmt->bind_param('s', $status);
+        $stmt->execute();
 
         $conn->close();
-        echo json_encode(['response' => $isValidEmail]);
+        echo json_encode(['response' => "Update Successful"]);
     } catch (Error $e) {
         http_response_code(500);
         echo json_encode(['error' => $e->getMessage()]);

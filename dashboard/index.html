@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+		<title>Chun Tutors</title>
+		<meta name="author" content="Sam Chun">
+		<meta name="keywords" content="Chun Tutors, tutor, tutors, lesson, lessons, online, learning, exercises, affordable,
+			math, calculus, statistics, physics, economics, microeconomics, macroeconomics, art, anatomy">
+		<meta name="description" content="Hello, we are Chun Tutors! We are the #1 rated online tutoring network in the San Diego area, 
+			with 100% 5-star reviews and over 1,000 combined hours of private tutoring experience. Monthly payments available!">
+		<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+		<link rel="canonical" href="https://chuntutors.com">
+		<link rel="icon" href="../images/Logo Icon.png">
+
+		<meta property="og:site_name" content="Chun Tutors">
+		<meta property="og:title" content="Chun Tutors">
+		<meta property="og:url" content="https://chuntutors.com">
+		<meta property="og:type" content="website">
+		<meta property="og:description" content="Hello, we are Chun Tutors! We are the #1 rated online tutoring network in the San Diego area, 
+			with 100% 5-star reviews and over 1,000 combined hours of private tutoring experience. Monthly payments available!">
+
+		<!--CSS Stylesheets-->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="../stylesheets/styles_1.5.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+	</head>
+
+	
+	<body>
+		<div class="sc-website">
+			
+			<!--Navbar-->
+			<nav class="navbar navbar-team navbar-expand-md fixed-top">
+				<div class="container">
+					<a class="navbar-brand" href="#">
+						<img src="../images/Logo Black.png" alt='Chun Tutors Logo'>
+					</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" 
+						aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+						<em class="fas fa-bars ms-1"></em>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navbarResponsive">
+						<ul class="navbar-nav ms-auto py-4 py-lg-0">
+							<li class="nav-item">
+								<a class="nav-link text-uppercase active" href="#">Dashboard</a>
+							</li>
+                            <li class="nav-item">
+								<a class="nav-link text-uppercase" href="../lessons/index.html">Lessons</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-uppercase" href="../services/index.html">Services</a>
+							</li>
+                            <li class="nav-item">
+								<a class="nav-link text-uppercase" href="../settings/index.html">Settings</a>
+							</li>
+                            <li class="nav-item">
+								<div class="logout-button">
+									<a class="nav-link text-uppercase" href="#">Logout</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+
+
+			<!--Dashboard Section-->
+			<section class="page-section" id="dashboard">
+				<div class="container">
+					<div class="row" style="margin-top:3em;">
+                        <div class="mb-3 server-error-message" style="color:red; display:none;">
+                            Internal Server Error. Please log out and log in again.
+                        </div>
+
+                        <!--Left Section-->
+						<div class="col-md-3">
+							<h2 class="section-heading">Dashboard</h2>
+							<h3 class="section-subheading" id="dashboard-welcome">
+								Welcome
+							</h3>
+
+                            <div class='sc-footerline' style="padding-bottom:0rem;"></div>
+
+                            <!--Injection-->
+                            <h3 class="num-sessions section-subheading"></h3>
+                            <h3 class="services-link section-subheading">
+                                <a class="form-link fst-italic" href="../services/index.html"></a>
+                            </h3>
+
+                            <div class='sc-footerline' style="padding-top:0rem;"></div>
+
+                            <h3 class="mt-4 section-subheading mb-0">
+                                Your Contact:
+                            </h3>
+                            <div class="mt-2 mb-0">
+                                <i class="far fa-envelope fa-lg"></i>
+                                <span class="section-subheading mb-0" id="dashboard-email" style="margin-left: 5px;">
+                                    Email
+                                </span>
+                            </div>
+                            <div class="mt-2 mb-0">
+                                <i class="fas fa-phone fa-lg"></i>
+                                <span class="section-subheading mb-0" id="dashboard-phone-number" style="margin-left: 5px;">
+                                    Phone Number
+                                </span>
+                            </div>
+                            <h3 class="settings-link section-subheading">
+                                <a class="form-link fst-italic" href="../settings/index.html">Change contact info</a>
+                            </h3>
+						</div>
+
+                        <!--Right Section-->
+                        <div class="col-md-8">
+                            <!--Dashboard Notice Injection-->
+                            <h3 class="dashboard-notice section-subheading fst-italic"></h3>
+                            
+                            <div class="lesson-card">
+                                <div class="lesson-card-container">
+                                    <div class="row">
+                                        <div class="lesson-heading col-6">
+                                            Lessons
+                                        </div>
+                                        <div class="col-6 text-end">
+                                            <a class="form-link" href="../lessons/index.html">All lessons ></a>
+                                        </div>
+
+                                        <div class="past-lesson-card mt-4">
+                                            <div class="past-lesson-card-container">
+                                                <div class="row">
+                                                    <div class="past-lesson-heading">
+                                                        Recent lessons
+                                                    </div>
+                                                    <div class="past-lesson-subheading"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+					</div>
+				</div>
+			</section>
+
+
+
+			<!--Footer-->
+			<footer class='sc-footer text-center sc-gray sc-medium'>
+                <div class='sc-footerline'></div>
+				<p>&#169; Copyright 2021 Chun Tutors. All Rights Reserved.</p>
+				<div class='sc-smallpadding'></div>
+			</footer>
+
+
+			<!--Scripts-->
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+				integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+			<script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+			<script src='../scripts/navbar.js'></script>
+            <script src='../scripts/dashboard.js'></script>
+			<script src='../scripts/logout.js'></script>
+		</div>
+	</body>
+</html>

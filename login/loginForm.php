@@ -1,12 +1,9 @@
 <?php
-    try {
-        $servername = "localhost";
-        $username = "uooqnklfygq2q";
-        $password = "(3w?@q23s5fP";
-        $dbname = "dbizw9tdvmzdch";
+    require_once("../keyConstants.php");
 
+    try {
         // Create connection
-        $conn = new mysqli($servername, $username, $password, $dbname);
+        $conn = new mysqli(SERVER_NAME, USERNAME, PASSWORD, DBNAME);
         // Check connection
         if ($conn->connect_error) {
             die("Connection failed: " . $conn->connect_error);
@@ -17,7 +14,7 @@
 
         $isValidLogin = false;
         while ($row = $result->fetch_assoc()) {
-            if ($_POST['email-address'] == $row["Email"] && $_POST['password'] == $row["Password"]) {
+            if ($_POST['email-address'] == $row["Email"] && password_verify($_POST['password'], $row["Password"])) {
                 $isValidLogin = true;
 
                 // Set session variable

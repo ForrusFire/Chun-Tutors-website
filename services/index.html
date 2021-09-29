@@ -38,7 +38,7 @@
 			<!--Navbar-->
 			<nav class="navbar navbar-team navbar-expand-md fixed-top">
 				<div class="container">
-					<a class="navbar-brand" href="../index.html">
+					<a class="navbar-brand" href="#">
 						<img src="../images/Logo Black.png" alt='Chun Tutors Logo'>
 					</a>
 					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" 
@@ -48,38 +48,7 @@
 
 					<div class="collapse navbar-collapse" id="navbarResponsive">
 						<ul class="navbar-nav ms-auto py-4 py-lg-0">
-							<li class="nav-item">
-								<a class="nav-link text-uppercase" href="../index.html">Home</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link text-uppercase" href="../about/index.html">About</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link text-uppercase" aria-current="page" href="../team/index.html">Team</a>
-							</li>
-							<li class="nav-item dropdown">
-								<a class="nav-link text-uppercase dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-										Services
-								</a>
-								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-										<li><a class="dropdown-item" href="../how-it-works/index.html">How It Works</a></li>
-										<li><a class="dropdown-item" href="../why-choose-us/index.html">Why Choose Us</a></li>
-										<li><hr class="dropdown-divider"></li>
-										<li><a class="dropdown-item" href="#">Our Services</a></li>
-								</ul>
-							</li>
-							<li class="nav-item dropdown contact">
-								<a class="nav-link text-uppercase" href="#" data-bs-toggle="dropdown">Contact</a>
-								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<li><a class="dropdown-item" href="../contact/consultation/index.html">Book Your Consultation</a></li>
-									<li><a class="dropdown-item disabled" href="#">Join Us (For Tutors)</a></li>
-								</ul>
-							</li>
-							<li class="nav-item">
-								<div class="login-button">
-									<a class="nav-link text-uppercase" href="../login/index.html">Login</a>
-								</div>
-							</li>
+							<!--Injection-->
 						</ul>
 					</div>
 				</div>
@@ -95,8 +64,8 @@
 						</div>
 					</div>
                         
-                    <!--Login Text-->
-                    <div class="login-text text-center fst-italic" style="display:none;">
+                    <!--Services Message Text-->
+                    <div class="services-message-text text-center fst-italic" style="display:none;">
                         Please <a class="login-link" href="../login/index.html">log in</a> to continue purchasing a session or package.
                     </div>
 
@@ -105,7 +74,10 @@
                             <div class="table-wrapper">
                                 <div class="table-head-wrapper">
                                     <div class="table-heading text-center">
-                                        Single Session
+                                        Pay As You Go
+                                    </div>
+									<div class="table-price table-payg-price text-center" style="display: none;">
+                                        <!--Price Injection-->
                                     </div>
                                 </div>
                                 <ul class="text-center">
@@ -114,7 +86,7 @@
                                     <li>No Hidden Fees</li>
                                 </ul>
                                 <div class="button-container text-center">
-                                    <a href="#" class="button">ACT NOW</a>
+                                    <a href="#" class="button button-payg">ACT NOW</a>
                                 </div>
                             </div>
                         </div>
@@ -125,14 +97,17 @@
                                     <div class="table-heading text-center">
                                         Package
                                     </div>
+									<div class="table-price table-package-price text-center" style="display: none;">
+                                        <!--Price Injection-->
+                                    </div>
                                 </div>
                                 <ul class="text-center">
                                     <li>8 Sessions at 12% Discount</li>
                                     <li>Scheduling Priority</li>
-                                    <li>Free Progress Reports</li>
+                                    <li>Academic Diagnostic Technologies</li>
                                 </ul>
                                 <div class="button-container text-center">
-                                    <a href="#" class="button">ACT NOW</a>
+                                    <a href="#" class="button button-package">ACT NOW</a>
                                 </div>
                             </div>
                         </div>
@@ -143,6 +118,9 @@
                                     <div class="table-heading text-center">
                                         Package +
                                     </div>
+									<div class="table-price table-package-plus-price text-center" style="display: none;">
+                                        <!--Price Injection-->
+                                    </div>
                                 </div>
                                 <ul class="text-center">
                                     <li>12 Sessions at 12% Discount</li>
@@ -150,7 +128,7 @@
                                     <li>Academic Diagnostic Technologies</li>
                                 </ul>
                                 <div class="button-container text-center">
-                                    <a href="#" class="button">ACT NOW</a>
+                                    <a href="#" class="button button-package-plus">ACT NOW</a>
                                 </div>
                             </div>
                         </div>
@@ -175,6 +153,7 @@
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 			<script src='../scripts/navbar.js'></script>
             <script src='../scripts/services.js'></script>
+			<script src='../scripts/logout.js'></script>
 		</div>
 	</body>
 </html>

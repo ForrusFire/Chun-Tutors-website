@@ -5,4 +5,4 @@ processing using Stripe's API.
 The frontend was written in Javascript with jQuery, HTML, and CSS with Bootstrap. The backend
 was written in PHP and SQL.
 
-Visit the website at chuntutors.com
+Visit the website at www.chuntutors.com

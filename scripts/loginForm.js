@@ -1,5 +1,19 @@
 $(document).ready(function() {
 
+    // Log out of session if on the Login page
+    $.ajax({
+        url:"../logout.php",
+        type:"GET",
+        dataType: 'json',
+        success: function(response){
+            console.log(response);
+        },
+        error: function(error){
+            $('.server-error-message').css('display', "block");
+            console.log(error);
+        }
+    })
+
     // Login Form Submission
     $('#login-form').submit(function(event) {
         event.preventDefault();
@@ -18,7 +32,7 @@ $(document).ready(function() {
                         $('.login-error-message').css('display', "none");
                         
                         // Redirect
-                        window.location.replace("https://chuntutors.com/dashboard/index.html");
+                        window.location.href = "https://chuntutors.com/dashboard/index.html";
                     } else {
                         $('.login-error-message').css('display', "block");
                     }

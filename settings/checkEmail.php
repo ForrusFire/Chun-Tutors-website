@@ -1,5 +1,5 @@
 <?php
-    require_once("../../keyConstants.php");
+    require_once("../keyConstants.php");
 
     try {
         // Create connection

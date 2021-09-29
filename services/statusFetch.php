@@ -1,5 +1,7 @@
 <?php
-    require_once("../../keyConstants.php");
+    session_start();
+
+    require_once("../keyConstants.php");
 
     try {
         // Create connection
@@ -9,18 +11,13 @@
             die("Connection failed: " . $conn->connect_error);
         }
 
-        $sql = "SELECT Email FROM Main";
+        $sql = "SELECT Status, BasePrice FROM Main WHERE UserID=" . strval($_SESSION['user']);
         $result = $conn->query($sql);
-        
-        $isValidEmail = true;
-        while ($row = $result->fetch_assoc()) {
-            if ($_GET['emailaddress'] == $row["Email"]) {
-                $isValidEmail = false;
-            }
-        }
+
+        $row = $result->fetch_assoc();
 
         $conn->close();
-        echo json_encode(['response' => $isValidEmail]);
+        echo json_encode(['status' => $row["Status"], 'base-price' => $row["BasePrice"]]);
     } catch (Error $e) {
         http_response_code(500);
         echo json_encode(['error' => $e->getMessage()]);
